@@ -8,8 +8,7 @@ public class OrderManager {
 
     public void processOrder(Order order) {
 
-        // Combined code from both branches
-        System.out.println("this is branch2");
+        System.out.println("Processing order Branch1");
 
         executorService.submit(() -> {
             try {
